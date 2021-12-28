@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6884782802312961872
 Transform:
   m_ObjectHideFlags: 0
@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 6884782803072645005}
   - component: {fileID: 6884782803072645004}
   - component: {fileID: 6884782803072645007}
+  - component: {fileID: 5020792670583814147}
   m_Layer: 0
   m_Name: Lightsaber
   m_TagString: Untagged
@@ -318,7 +319,19 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5020792670583814147}
+        m_TargetAssemblyTypeName: LightsaberActivation, Assembly-CSharp
+        m_MethodName: ActivateLightsaber
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -386,3 +399,17 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!114 &5020792670583814147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884782803072645006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc31004c064afb94ca982790d3f6954d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _saberObject: {fileID: 6884782802312961875}
+  _active: 0
