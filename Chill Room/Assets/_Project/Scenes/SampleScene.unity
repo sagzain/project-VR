@@ -4674,6 +4674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 2151966514506954317, guid: cc00f0fd5fcf1a14d851c724aea84490, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2151966514507377261, guid: cc00f0fd5fcf1a14d851c724aea84490, type: 3}
       propertyPath: m_RootOrder
       value: 1
