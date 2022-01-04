@@ -20,18 +20,19 @@ public class TrainMovement : MonoBehaviour
         {
             float angle = Quaternion.Angle(other.transform.rotation, transform.rotation);
             Debug.Log(angle);
-            StartCoroutine(SmoothRotation(angle));
+            Debug.Log(other.gameObject);
+        
+
+            Quaternion q = other.transform.rotation;
+            q.x = q.z = 0;
+            // transform.rotation = Quaternion.Lerp(transform.rotation, q, 0.5f);
+            StartCoroutine(RotateTrain(q));
         }
     }
 
-    IEnumerator SmoothRotation(float angle)
+    IEnumerator RotateTrain(Quaternion q)
     {
-
-        for(int i = 0; i <= angle; i++)
-        {
-            transform.Rotate(transform.up, 1);
-            yield return new WaitForSeconds(.01f);
-        }
-        
+        yield return new WaitForSeconds(.025f);
+        transform.rotation = Quaternion.Lerp(transform.rotation, q, 0.5f);
     }
 }

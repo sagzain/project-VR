@@ -4366,11 +4366,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982486178529370496, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
       propertyPath: _speed
-      value: 0.01
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1499687470396478492, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2565
+      value: -0.2458
       objectReference: {fileID: 0}
     - target: {fileID: 1499687470396478492, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4491,6 +4491,10 @@ PrefabInstance:
     - target: {fileID: 4916955041621388125, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571843476428374952, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
+      propertyPath: m_Name
+      value: Rails
       objectReference: {fileID: 0}
     - target: {fileID: 5921413213058341252, guid: fd5f0862065f6b14bb6b417affdc9e2d, type: 3}
       propertyPath: m_Name
