@@ -32,7 +32,7 @@ public class TrainMovement : MonoBehaviour
 
     IEnumerator RotateTrain(Quaternion q)
     {
-        yield return new WaitForSeconds(.025f);
+        yield return new WaitForSeconds(.25f);
         transform.rotation = Quaternion.Lerp(transform.rotation, q, 0.5f);
     }
 }
