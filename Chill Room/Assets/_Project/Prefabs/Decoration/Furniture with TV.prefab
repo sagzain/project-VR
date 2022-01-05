@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &3883408476840594461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6400643548510064484}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5098581, y: 0.42950067, z: 0.25369212}
+  m_Center: {x: -1.1890079, y: 0.14142868, z: 0.12588295}
 --- !u!1001 &1725233287909940934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25,7 +38,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6245201469655783540, guid: 84590211f929c1141ac3a550dbf2c6c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.03
+      value: 0.943
       objectReference: {fileID: 0}
     - target: {fileID: 6245201469655783540, guid: 84590211f929c1141ac3a550dbf2c6c5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70,7 +83,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 143224, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_Name
-      value: Cabinet for TV
+      value: Furniture with TV
       objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_RootOrder
@@ -90,7 +103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2716674
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -98,7 +111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9028547
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -128,10 +141,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9551396, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
 --- !u!4 &6400643548509877692 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
+  m_PrefabInstance: {fileID: 6400643548509937988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6400643548510064484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 142880, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
   m_PrefabInstance: {fileID: 6400643548509937988}
   m_PrefabAsset: {fileID: 0}
