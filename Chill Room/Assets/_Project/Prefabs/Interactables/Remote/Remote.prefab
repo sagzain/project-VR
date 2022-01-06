@@ -42,6 +42,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2786695227495193641}
+  - component: {fileID: 3219738612116183004}
+  - component: {fileID: 16614102971918224}
   - component: {fileID: 6325079609032056322}
   m_Layer: 0
   m_Name: Remote
@@ -66,6 +68,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3219738612116183004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375384868324330570}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.81057096, y: 0.26424643, z: 2.0070457}
+  m_Center: {x: -0.001372695, y: 0.0027454048, z: -0.0003619194}
+--- !u!54 &16614102971918224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375384868324330570}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!114 &6325079609032056322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +186,6 @@ GameObject:
   - component: {fileID: 3526999944746046701}
   - component: {fileID: 3417545523194182540}
   - component: {fileID: 4807865325250101964}
-  - component: {fileID: 333702323896495165}
   m_Layer: 0
   m_Name: Remote Visual
   m_TagString: Untagged
@@ -226,19 +256,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &333702323896495165
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9116284825261231583}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4780885026651344982
 PrefabInstance:
   m_ObjectHideFlags: 0
