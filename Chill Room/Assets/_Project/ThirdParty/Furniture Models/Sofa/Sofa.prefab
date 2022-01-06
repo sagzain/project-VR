@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 449140}
   - component: {fileID: 3381466}
   - component: {fileID: 2304308}
-  - component: {fileID: 9577518}
   m_Layer: 0
   m_Name: Sofa
   m_TagString: Untagged
@@ -82,22 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &9577518
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179898}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 83e5cd8f8ed8cbd4590a10ff2ed9f0e8, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
