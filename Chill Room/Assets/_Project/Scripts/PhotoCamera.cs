@@ -73,8 +73,11 @@ public class PhotoCamera : MonoBehaviour
         photoMaterial.mainTexture = photoTexture;
 
         // Instantiate the photoPrefab in the output position of the camera.
-        var go = Instantiate(_photoPrefab, _output.position, _photoPrefab.transform.rotation, _output);
+        var go = Instantiate(_photoPrefab, _output.position, _output.rotation, _output);
         go.transform.Find("Image").GetComponent<MeshRenderer>().material = photoMaterial;
+
+        // Sets the photo's delay time (photo coming out) to the same as the camera's. 
+        go.GetComponent<Photo>().SetDelayTime(_photoDelay);
 
         // Plays the audio of the shot being taken.
         _audioSource.PlayOneShot(_cameraSound);

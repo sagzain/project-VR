@@ -435,7 +435,7 @@ MonoBehaviour:
   _output: {fileID: 5433899484029682500}
   _cameraSound: {fileID: 8300000, guid: 756f6014613c1ac41af18b12b79a7d50, type: 3}
   _photoPrefab: {fileID: 1613062770357761139, guid: 2e473ec4a5bbefc44a1733a42bedd2bd, type: 3}
-  _photoDelay: 2
+  _photoDelay: 3
 --- !u!1 &8889697928884418536
 GameObject:
   m_ObjectHideFlags: 0
