@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3377678}
   - component: {fileID: 2379924}
   - component: {fileID: 137744268304522335}
+  - component: {fileID: 4922261966193838212}
   m_Layer: 0
   m_Name: TV
   m_TagString: Untagged
@@ -95,3 +96,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.95, y: 0.6463177, z: 0.24761002}
   m_Center: {x: 0.000000029802322, y: 0, z: 0}
+--- !u!114 &4922261966193838212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3560eae4b9182645bac63e014589c81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delayActivation: 0
+  _videos:
+  - {fileID: 32900000, guid: b554ae628a1b5f94b8aeb24cb22791a9, type: 3}
+  - {fileID: 32900000, guid: eda3e9e1e90e2af408549b2ace69f300, type: 3}
+  _ScreenOnMaterial: {fileID: 2100000, guid: 479c0f521f3dcf3408d9e79998f93ef6, type: 2}
+  _ScreenOffMaterial: {fileID: 2100000, guid: 23b0ea384d51617458b82c3fa268bd94, type: 2}
+  _LightOnMaterial: {fileID: 2100000, guid: 6837fb3cb555b4444a7ab60d492689a1, type: 2}
+  _LightOffMaterial: {fileID: 2100000, guid: 20ef97689aae475489ba58351b642521, type: 2}
