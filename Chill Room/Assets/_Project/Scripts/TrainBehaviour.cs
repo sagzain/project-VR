@@ -10,6 +10,9 @@ public class TrainBehaviour : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private bool _isActive;
 
+    [Header("References")]
+    [SerializeField] private ParticleSystem _particleSystem;
+
     private bool _isGrounded;
     private AudioSource _audioSource;
 
@@ -40,11 +43,13 @@ public class TrainBehaviour : MonoBehaviour
         {
             _isActive = false;
             _audioSource.Stop();
+            _particleSystem.Stop();
         }
         else
         {
             _isActive = true;
             _audioSource.Play();
+            _particleSystem.Play();
         }
     }
 
