@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 8456920918632778069}
   - component: {fileID: -5219153312184182288}
   m_Layer: 0
-  m_Name: Remote
+  m_Name: Remote TV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
