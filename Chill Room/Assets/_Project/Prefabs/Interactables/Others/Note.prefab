@@ -444,14 +444,14 @@ MonoBehaviour:
     Are you lost?
 
 
-    Try to grab the remote you have in the
-    table.
+    Try to grab the remote that you have
+    on the table.
 
 
     Have fun!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c37dfae8cd877964f84b9eb68e5eacff, type: 2}
+  m_sharedMaterial: {fileID: 8032013903015462257, guid: c37dfae8cd877964f84b9eb68e5eacff, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 0.1
   m_fontSizeMax: 40
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
