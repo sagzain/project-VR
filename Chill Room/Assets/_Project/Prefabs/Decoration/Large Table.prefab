@@ -25,6 +25,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large Table
       objectReference: {fileID: 0}
+    - target: {fileID: 160806, guid: 6133f78a975db0f4dacf43dbec077916, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 439612, guid: 6133f78a975db0f4dacf43dbec077916, type: 3}
       propertyPath: m_RootOrder
       value: 0

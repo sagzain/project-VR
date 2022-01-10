@@ -199,6 +199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Furniture with TV
       objectReference: {fileID: 0}
+    - target: {fileID: 143224, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 464120, guid: e280478e114d9614eb2e82bd7db59a8f, type: 3}
       propertyPath: m_RootOrder
       value: 0

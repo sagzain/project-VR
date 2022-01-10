@@ -1502,6 +1502,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 179898, guid: eb3c42be7135565489025b9e0a1e3173, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 449140, guid: eb3c42be7135565489025b9e0a1e3173, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1944,7 +1948,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1066077433
 Transform:
@@ -2139,9 +2143,21 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8829460285696279244, guid: 1d0064dbb28da2542951a0be95f94f7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 8829460285696313812, guid: 1d0064dbb28da2542951a0be95f94f7d, type: 3}
       propertyPath: m_Name
       value: Coffee Table
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829460285696313812, guid: 1d0064dbb28da2542951a0be95f94f7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8829460285696342584, guid: 1d0064dbb28da2542951a0be95f94f7d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8829460285696635056, guid: 1d0064dbb28da2542951a0be95f94f7d, type: 3}
       propertyPath: m_RootOrder
